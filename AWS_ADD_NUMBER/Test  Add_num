@@ -1,0 +1,6 @@
+Create a new test event with this JSON:
+json
+{
+ "num1": 10,
+ "num2": 20
+} 
