@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage with AWS Lambda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <button id="toggleBtn" class="toggle-button">☰</button>
+        Navbar
+    </nav>
+    <div class="container" id="pageContainer">
+        <div class="left-menu" id="collapsibleMenu">
+            <h3>Left Menu</h3>
+            <button id="addNumbersBtn">Home</button>
+            <button id="uploadFileBtn">About</button>
+            <button id="uploadFileBtn">Testimonials</button>
+            <button id="uploadFileBtn">Timeline</button>
+            <button id="uploadFileBtn">Products & Services</button>
+        </div>
+        <div class="main-content">
+            <h1>Main Content</h1>
+            <div id="result"></div>
+        </div>
+        <div class="right-panel">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="https://aws.amazon.com/lambda/" target="_blank">AWS Lambda</a></li>
+                <li><a href="https://aws.amazon.com/s3/" target="_blank">Amazon S3</a></li>
+                <li><a href="https://www.djangoproject.com/" target="_blank">Django</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+            </ul>
+            <h3>Contact Us</h3>
+            <p>Email: support@example.com</p>
+            <p>Phone: +1 234 567 890</p>
+        </div>
+    </div>
+    <footer>Footer</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
