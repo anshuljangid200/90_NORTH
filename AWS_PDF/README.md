@@ -1,4 +1,4 @@
-# -Code-an-AWS-Lambda-function-to-store-a-document-or-PDF-file-in-an-S3-bucket.-
+# Code an AWS Lambda function to store a document or PDF file in an S3 bucket
 2. Code an AWS Lambda function to store a document or PDF file in an S3 bucket.
 
 Let's move on to the second Lambda function for uploading files to S3. I'll guide you step by step:
